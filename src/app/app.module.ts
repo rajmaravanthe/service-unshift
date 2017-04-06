@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { UnshiftService } from './unshift.service';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { UnshiftService } from './unshift.service';
     FormsModule,
     HttpModule
   ],
-  providers: [UnshiftService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
